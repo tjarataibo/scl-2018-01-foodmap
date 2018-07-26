@@ -15,9 +15,9 @@
     <script>
 // Initialize and add the map
 function initMap() {
-  // Latitud y longitud de IF
+  // Latitud y longitud de Santiago
   var uluru = {lat: -33.4190456, lng: -70.64176040000001};
-  // The map, centered at Uluru
+  // The map, centered at x lugar
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 15, center: uluru});
   // The marker, positioned at Uluru
@@ -25,7 +25,7 @@ function initMap() {
 }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDASoquoCpXyYppGev41cMSX3DZJLrCzoM&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDASoquoCpXyYppGev41cMSX3DZJLrCzoM&libraries=places&callback=initMap">
     </script>
 
 
