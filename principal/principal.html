@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="../nou/nouislider.css">
+    <!-- Link Materialize para css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Link para íconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Foodmap</title>
+</head>
+<body>
+    <!--Contenedor de título-->
+        <div class="container">
+                <h1 class="center-align amber-text text-darken-3">Foodmap</h1>
+        </div>
+    <!--Filtro-->
+        <form action="#">
+                <p class="range-field">
+                  <input type="range" id="test5" min="0" max="100" />
+                </p>
+              </form>
+
+    <!--Búsqueda por tipo de comida-->
+        <div class="containerTwo">
+                <h4 class="center-align amber-text text-darken-3">Comida cerca de ti</h4>
+        </div>
+
+        <nav>
+                <div class="nav-wrapper amber darken-1">
+                  <form>
+                    <div class="input-field">
+                      <input id="search" type="search" required>
+                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                      <i class="material-icons">close</i>
+                    </div>
+                  </form>
+                </div>
+              </nav>
+
+    <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+    <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+             </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+        </div>
+          
+
+
+    
+    <!-- Link Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link Materialize para JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="../splash/splash.html"></script>
+    <script src="../nou/nouislider.js"></script>
+    <script src="principal.js"></script>
+</body>
+
+</html>
