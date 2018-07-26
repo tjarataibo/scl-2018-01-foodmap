@@ -10,24 +10,20 @@
     <!-- Link para íconos -->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <title>Foodmap</title>
-
-     <!--Funcionalidad splash-->
-     <style type="text/CSS">body {background-color: #242629}</style>
-
-     </style>
-     <script type="text/javascript">
-     window.onload=timeout;
-        function timeout(){
-     window.setTimeout("redirect()",3000)}
-        function redirect(){
-     window.location="../principal/principal.html"
-        return}
-     </script>
 </head>
-<body onload="timeout()">
-    <div class="container">
-         <h1 class="center-align amber-text text-darken-3">Foodmap</h1>
+ <!--Funcionalidad splash https://www.youtube.com/watch?v=fsmFBwlk7wo&feature=youtu.be-->
+<div class = "container splash" id = "splash">
+    <div class ="col s10 brand-logo">
+    <span style = "color: #ff8f00;">FOODMAP</span>
     </div>
+     <div class = "loader-frame">
+      <div class = "loaderOne" id = "loaderOne"></div>
+      <div class = "loaderTwo" id = "loaderTwo"></div>
+     </div>
+   </div>
+    <!-- <div class="container">
+         <h1 class="center-align amber-text text-darken-3">Foodmap</h1>
+    </div> -->
     <!--Preloader-->
     <!-- <div class="preloader-wrapper big active">
             <div class="spinner-layer spinner-blue-only">
