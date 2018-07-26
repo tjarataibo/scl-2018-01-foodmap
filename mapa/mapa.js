@@ -61,6 +61,16 @@
 //   map.fitBounds(bounds);
 // }
 
+// function initMap() {
+//   // Latitud y longitud de Santiago
+//   var uluru = {lat: -33.4190456, lng: -70.64176040000001};
+//   // The map, centered at x lugar
+//   var map = new google.maps.Map(
+//       document.getElementById('map'), {zoom: 15, center: uluru});
+//   // The marker, positioned at Uluru
+//   var marker = new google.maps.Marker({position: uluru, map: map});
+// }
+   
 
 var map;
 var infowindow;
@@ -72,7 +82,9 @@ function initMap(position) {
     //latitud y longitud de geolocalización
     var lat = position.coords.latitude;
     var lng = position.coords.longitude
+    //Obtener latitud y longitud de Santiago
     var santiago = {lat, lng};
+  //Predeterminado
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat, lng},
     zoom: 15
@@ -104,7 +116,7 @@ function initMap(position) {
   //Para añadir marcador
   function createMarker(place) {
     
-    var placeLoc = place.geometry.location;
+    var loCplace = place.geometry.location;
     var marker = new google.maps.Marker({
       map: map,
       position: place.geometry.location
