@@ -62,8 +62,6 @@
 // }
 
 
-// API KEY: AIzaSyDASoquoCpXyYppGev41cMSX3DZJLrCzoM
-
 var map;
 var infowindow;
 
