@@ -11,14 +11,14 @@
 // });
 
 //Funcionalidad de barra de búsqueda
-$(document).ready(function(){
-    $('.nav-wrapper').nav-wrapper();
-  });
+// $(document).ready(function(){
+//     $('.nav-wrapper').nav-wrapper();
+//   });
 
 //Funcionalidad para modal
-var instance = M.Modal.getInstance(elem);
+// var instance = M.Modal.getInstance(elem);
 
-$(document).ready(function(){
-    $('.modal').modal();
-  });
+// $(document).ready(function(){
+//     $('.modal').modal();
+//   });
          
